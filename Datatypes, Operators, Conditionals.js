@@ -72,19 +72,20 @@ console.log("\n");
  Create a variable named x and assign to it the number 12.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let x = 12;
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
-/* WRITE YOUR ANSWER HERE */
+let name = "John Doe";
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
 */
-
-/* WRITE YOUR ANSWER HERE */
+let subtraction = 12 - x;
+console.log("\n12 - x =", subtraction);
+console.log("\n");
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
@@ -92,7 +93,11 @@ console.log("\n");
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
 
-/* WRITE YOUR ANSWER HERE */
+let name1 = "john";
+let name2 = "John";
+let nameEquality = name1 === name2;
+console.log("\nIs", name1, "equal to", name2, "?", nameEquality);
+console.log("\n");
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
