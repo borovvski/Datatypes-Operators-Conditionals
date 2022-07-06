@@ -97,17 +97,14 @@ let name1 = "john";
 let name2 = "John";
 let nameEquality = name1 === name2;
 console.log("\nIs", name1, "equal to", name2, "?", nameEquality);
+let nameEquality2 = name1 === name2.toLowerCase();
+console.log("\nIs john equal to John?", nameEquality2);
 console.log("\n");
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
-let x2;
-x2 = 6;
-if(x2 = 1){
-  
-
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
